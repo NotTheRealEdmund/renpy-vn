@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 53: expected statement.
-    dissolve
-            ^
+File "game/next.rpy", line 3: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation.
+    scene bg school
+    ^
+
+File "game/script.rpy", line 15: expected statement.
+    execfile("next.py") 
+                        ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Mon May 18 22:46:31 2020
+Tue May 19 21:33:26 2020

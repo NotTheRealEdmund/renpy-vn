@@ -46,31 +46,17 @@ label start:
     "Every once in a while, hanging around with people you can't stand can bring about unexpected results."
     "Like learning to train your perseverance for example."
     "In this age of technological advancement, I've been thinking that it isn't too much of a stretch to expect someone to invent a machine which grants infinite self-control."
-    "Like, you could just stick it onto your back and switch it on, and be able to endure just about anything, like a zen monk."
+    "Like, you could just stick a switch onto your back and switch it on, and be able to endure just about anything, like a zen monk."
     "Guess that's just a pipe dream after all."
-    "Before that turns into reality, the only choice humans have is to train their tolerance towards things they dislike..."
+    "Before that turns into reality, the only choice humans have is to train their ability to tolerate things they dislike..."
     
     stop music
     
     scene bg gray
     with fade
     
-    "Before we go on any further, it's time for a short introduction."
-    "This visual novel you're playing now is all about..."
-    "..."
-    "My unremarkable everyday life..."
-    "..."
-    "Surely you already guessed that from the title..."
-    "But yeah, this game is just for me to have fun experimenting with this software."
-    "And talking about pretentious shit which I occasionally think about, even though nobody cares, because I have no life."
-    "Sometimes I can't help but feel like my time on this earth isn't being spent efficiently."
-    "Just thinking about what successful people around my age has already achieved with their lives make me depressed..."
-    "Talented artists who have drawings sold for millions..."
-    "Or amazing programmers who invented life-changing apps with millions of downloads..."
-    "Or even actors who have starred in blockbusters..."
-    "All of them are living their lives to the fullest."
-    "And me? I'm nothing but an average university student..."
-    "And in case you haven't already realised..."
+    "Before we go on any further, it's time for a disclaimer."
+    "In case you haven't already realised..."
     "This is going to be an incredibly boring game."
     "Which is completely not going to be worth your time."
     "Not to mention, the production value of this game is close to zero."
@@ -79,20 +65,15 @@ label start:
     "And of course, a visual novel with a non-existent plot."
     
 menu:
-    "Now, despite all these warnings, do you still want to continue wasting your time playing this ridiculous game?"
+    "Now, despite this warning, do you still want to continue wasting your time playing this ridiculous game?"
     "Hell yeah":
         jump yeah
     "Hell no":
         jump no
-            
+    
 label no:
     "I see..."
     "Well, I don't blame you, surely you have more important things to do with your life."
-    "I'm sure you see playing this game as nothing more than a waste of time."
-    "Just like I felt when creating this game."
-    "But the thing is...wasting time is what life's all about."
-    "The more time you spend doing \"pointless\" stuff, the better off you'll be."
-    "It's the secret to enjoying life."
     "Besides..."
     "Don't get the wrong idea! It's not like I wanted you to play this game or anything!"    
     "{b}.:. Bad End.{b}"
@@ -101,5 +82,37 @@ label no:
 label yeah:
     play music "audio/song.mp3" fadeout 1.0 fadein 1.0
     "I see..."
-    # To be continued
+    "Well then, it's time for a short introduction."
+    "This visual novel you're playing now is all about..."
+    "..."
+    "My unremarkable everyday life..."
+    "..."
+    "Surely you already guessed that from the title..."
+    "So yeah, this game is just for me to have fun experimenting with this software."
+    "And talking about pretentious shit which I occasionally think about, even though nobody cares, because I have no life."
+    "Speaking of which, sometimes I just can't help but feel like my time on this earth isn't being spent efficiently."
+    "Just thinking about what successful people around my age has already achieved with their lives make me depressed..."
+    "Talented artists who have drawings sold for millions..."
+    "Or amazing programmers who invented life-changing apps with millions of downloads..."
+    "Or even actors who have starred in blockbusters..."
+    "All of them are living their lives to the fullest."
+    "Not to mention they are all probably younger than me."
+    "And me? I'm nothing but an average university student..."
+    "Some might say that that's good enough for one life, but this is an era where graduates are forced to lower career expectations because of the over-saturation of graduates who are facing tough competition everywhere."
+    "In addition, my grades are nothing to boast about."
+    "If anything, I should be a little ashamed."
+    "Yet, it's not terrible."
+    "It's simply unremarkable."
+    
+    scene bg bedroom
+    with fade
+    
+    "Anyway today has been a tiring day."
+    "I reached home and settled down in half an hour or so, before surfing the net for my daily sources of entertainment, just like everyone else. You know, the usual."
+    "Sometimes I wonder what would have become of me if I had some discipline to work on something productive every single day instead of following mediocrity."
+    "Perhaps I would actually achieve something?"
+    "Ironically, thoughts like this of wanting to be productive would only occur to me when I'm wasting time like this."
+    "But the thing is...wasting time is what life's all about."
+    "The more time you spend doing \"pointless\" stuff, the better off you'll be."
+    "It's the secret to enjoying life."
     "{b}.:. Good End.{b}"
