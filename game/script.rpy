@@ -12,7 +12,7 @@ default flag = False
 
 label start:
     
-    play music "audio/song.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/relax.mp3" fadeout 1.0 fadein 1.0
     
     scene bg school
     with fade
@@ -63,6 +63,7 @@ label start:
     "The lack of character sprites are proof of that, though I guess I could just argue that it's trying to be avant-garde."
     "That's the standard excuse isn't it? From movies with ridiculous endings to songs with nonsensical lyrics to TV shows with actors who can't act."
     "And of course, a visual novel with a non-existent plot."
+    "It will seem as if these are ramblings I've written down and forgotten, and then all of a sudden shamelessly decide to create a visual novel about it."
     
 menu:
     "Now, despite this warning, do you still want to continue wasting your time playing this ridiculous game?"
@@ -75,12 +76,15 @@ label no:
     "I see..."
     "Well, I don't blame you, surely you have more important things to do with your life."
     "Besides..."
+    "Tsundere service~"
     "Don't get the wrong idea! It's not like I wanted you to play this game or anything!"    
     "{b}.:. Bad End.{b}"
     return
     
 label yeah:
-    play music "audio/song.mp3" fadeout 1.0 fadein 1.0
+    
+    play music "audio/relax.mp3" fadeout 1.0 fadein 1.0
+    
     "I see..."
     "Well then, it's time for a short introduction."
     "This visual novel you're playing now is all about..."
@@ -98,7 +102,9 @@ label yeah:
     "All of them are living their lives to the fullest."
     "Not to mention they are all probably younger than me."
     "And me? I'm nothing but an average university student..."
-    "Some might say that that's good enough for one life, but this is an era where graduates are forced to lower career expectations because of the over-saturation of graduates who are facing tough competition everywhere."
+    "Some might say that that's good enough for one life..."
+    "But this is an era where graduates are forced to lower career expectations because of the over-saturation of graduates."
+    "Graduates are a dime a dozen, so even if you graduated, you are not exempt from facing tough competition everywhere."
     "In addition, my grades are nothing to boast about."
     "If anything, I should be a little ashamed."
     "Yet, it's not terrible."
@@ -108,11 +114,81 @@ label yeah:
     with fade
     
     "Anyway today has been a tiring day."
-    "I reached home and settled down in half an hour or so, before surfing the net for my daily sources of entertainment, just like everyone else. You know, the usual."
+    "I reached home and settled down in half an hour or so, before surfing the net for my daily sources of entertainment, just like everyone else."
+    "You know, the usual...listening to music, watching uneducational videos etc."
     "Sometimes I wonder what would have become of me if I had some discipline to work on something productive every single day instead of following mediocrity."
     "Perhaps I would actually achieve something?"
     "Ironically, thoughts like this of wanting to be productive would only occur to me when I'm wasting time like this."
     "But the thing is...wasting time is what life's all about."
     "The more time you spend doing \"pointless\" stuff, the better off you'll be."
     "It's the secret to enjoying life."
+    me "That's right, I have a tutorial in the morning tomorrow."
+    me "I better get to bed early."
+    
+    scene bg black
+    with fade
+    
+    "..."
+    
+    scene bg school
+    with fade
+    
+    friend "Yo."
+    me "Yo."
+    "We exchanged light greetings with each other. If you could even call that a greeting whatsoever."
+    
+    stop music fadeout 1.0
+    "As I was listening to the tutor's endless blatter about fourier transforms and complex numbers, I thought back to the past where I was full of anticipation for the future."
+    play music "audio/sad past.mp3" fadeout 1.0 fadein 1.0
+    
+    "Now, my life is truly a boring one."
+    "That's probably because I'm a boring person."
+    "What makes this even worse is that I'm aware of it, painfully so..."
+    "But I don't particularly hate myself for it."
+    "I admit that I dislike and avoid unnecessary change."
+    "For example, I don't go out of my way to pick up new hobbies."
+    "Though that's probably also why I'll never be successful in my lifetime."
+    "In my opinion, when it comes to hobbies and interests, anything is fine, even if it's stupid crap."
+    "Whatever it is, they can be considered \"hooks\" to land as many \"fishes\" as possible."
+    "Finding friends you can talk about some common interest with is a really valuable thing."
+    "After all, you never know when those friends you have around you can give you that slight push you need to succeed in whatever you're trying to do."
+    "..."
+    "Having said that, I'm sure that even if I pick up some hobby, I wouldn't want to get involved with anybody who pursues the same interest."
+    "I prefer doing things I like alone."
+    "It's just easier that way."
+    "I don't have to go about justifying my reasons for picking that hobby up or losing interest in that hobby."
+    "Also, there's no need to compare with other people all the time."
+    "..."
+    friend "Hey copy that down, it's important."
+    me "Okay, ... convolution ..."
+    "While copying, I continued my train of thought."
+    "Putting aside the fact that I basically have no hobbies, I think my personality is mostly to blame after all for my boring lifestyle."
+    "The fact that I sense no urgency in having to improve my life is proof of that."
+    "Here I am, pursuing a university degree simply because I had nothing else I really wanted to do in life."
+    "Simply living an unremarkable everyday life is more than enough for me."
+    "In fact, it might actually be considered a blessing to be able to live life without anything going on."
+    "The saying goes: No news is good news."
+    "..."
+    "I wonder if I will ever regret thinking like this in the future?"
+    "Just imagining my future self laughing at me right now the same way I do to my past self."
+    "After all, my past self was pretty dumb, but I didn't realise it at the time."
+    "I never imagined my future to be nothing but dark, with no dreams to chase after."
+    "I had lots of dreams when I was little."
+    "\"Becoming a firefighter to save lives sounds heroic!\""
+    "\"Becoming an actor and getting all that attention didn't seem too bad either...\""
+    "But all of those were simply a \"if I had to choose\""
+    "There were no real convictions behind them."
+    "Every attempt I make ends up being half-hearted."
+    "I'm nothing but a mess of contradictions."
+    "Simply by living a mediocre life, I was unable to face hardship, which was the drive I needed to succeed."
+    "And now, I'll never get that back."
+    "My vague life will just pass away with nothing but regrets."
+    "Perhaps the biggest mistake I made while growing up was always being a \"good kid\"."
+    "I would never get into any huge trouble, and I would always listen to others."
+    "Adults around me would have increased expectations, and then it eventually seemed like it was normal no matter what I would do."
+    "..."
+    me "Well, no point in remembering stupid stuff."
+    "As the tutorial approached its end, I started packing my stuff."
+    
+    # To be continued
     "{b}.:. Good End.{b}"
