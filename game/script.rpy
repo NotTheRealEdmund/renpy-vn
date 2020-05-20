@@ -189,6 +189,32 @@ label yeah:
     "..."
     me "Well, no point in remembering stupid stuff."
     "As the tutorial approached its end, I started packing my stuff."
+
+    play music "audio/relax.mp3" fadeout 1.0 fadein 1.0
     
+    scene bg canteen
+    with fade
+    
+    "I head to the canteen with my friend to have lunch."
+    friend "Hey, what do you want to eat?"
+    me "Whatever..."
+    "..."
+    "When it comes to meals, I don't have huge likes or dislikes."
+    "Some people say that means I'm not a picky eater, but to be honest, I'm just not interested enough in what I eat to bother."
+    "Perhaps an aftermath of the lessons beaten into me during the days I had been in military."
+    "To put it nicely, the military would serve food which would drastically lower your expectations of what tasted good."
+    "And thus, I've come to adopt the notion that a full stomach and adequete nutrition is all I really need from a meal."
+    "That's not to say that I can't appreciate a good meal, it's just that I don't go out of my way to look for one."
+    "Of course if the meal tastes good, that's a nice little bonus, but that shouldn't be the primary concern."
+    "If I eat out, the only thing I'm concerned about is how much time it would take to queue for and finish my meal."
+    "On the other hand, I'm somewhat puzzled by how some people are ridiculously picky eaters."
+    "Always only looking for the kinds of food they like, not willing to try new food, and worse of all, being somewhat proud of that."
+    "Saying things like \"I can only eat this.\" or \"I will never try this.\" all the time."
+    "It's okay to have food you dislike, but to reject something before even trying it is beyond me."
+    "In my opinion, you'll only embarrass yourself when you insist that you hate some food you've never eaten."
+    "Then again, with the increasing number of vegetarians and vegans in the world raising their children with the exact opposite mindset, I might have to reconsider my opinion to avoid getting as much hate as possible."
+    "In fact, religions as well, have quite a few dietary restrictions as well if I remember correctly."
+    "That said, if the day ever comes when I would tell my child what they can eat and what they cannot eat without a proper reason..."
+    "I think that'll be the day I go bungee jumping off the roof of a tall building without a cord."
     # To be continued
     "{b}.:. Good End.{b}"
