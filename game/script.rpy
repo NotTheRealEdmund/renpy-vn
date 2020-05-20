@@ -216,5 +216,37 @@ label yeah:
     "In fact, religions as well, have quite a few dietary restrictions as well if I remember correctly."
     "That said, if the day ever comes when I would tell my child what they can eat and what they cannot eat without a proper reason..."
     "I think that'll be the day I go bungee jumping off the roof of a tall building without a cord."
+
+    play music "audio/normal.mp3" fadeout 1.0 fadein 1.0
+    
+    scene bg school
+    with fade
+    
+    "I head to the venue where I'm supposed to have my next lecture."
+    "Coincidentally, my friend had the same lecture as me, and we sat together again."
+    "Lectures usually comprise of way more students than tutorials and are generally very one-sided, since only the lecturer is speaking, which makes it kinda boring."
+    "Usually many students, such as my friend and I, don't pay much attention after a while."
+    "My friend usually gets distracted by his phone games after we've lost our concentration within the first hour."
+    "As for myself, I might seem like I'm paying attention, but in actual fact, I'm not. Not at all."
+    "It's just that there was nothing to do. Nothing I could do. So I simply blanked out."
+    "Speaking of phones, most people use phones for playing games it seems. I happen to be excluded from that group but I could understand how addicting they could be."
+    "It's ironic that most people do not use phones for the primary purpose of contacting others, and that is especially true for me."
+    "I could count the number of contacts I have in one hand, and I even have their numbers memorized."
+    "But that's simply because a call from them or from myself is so rare that the moment the number pops up on my phone screen, I instantly think of who might be calling me and associate that number to that person."
+    "The same thing applies for messages."
+    "Then again, I don't really see the appeal of racking up a huge phone bill by firing off pointless texts or killing time with useless banter."
+    "Sometimes I hear people having ridiculous amounts of mobile data per month and wonder if I could even use that much in an entire year."
+    "To be honest, I view phones in general as a means to look up information rather than as a communication device."
+    "Smartphones are pretty much a mini-computer which allows you to find out what you need to know anytime, and that's an undeniable convenience."
+    "That said, there's also an aspect of smartphones which I find inconvenient."
+    "The fact that there's an expectation that you'll answer the phone at any time, even if you're away from school or work."
+    "There's no more escape." 
+    "With communication being as powerful as it is now, you can still be told to work even if it's already past working hours."
+    "Guess that's the price to pay for wanting to connect with others, you have no choice but to be connect even if you don't want to."
+    "Before I knew it, the lecture has ended and I left the venue none the wiser. Nothing new, I guess."
+    "..."
+    friend "Bye."
+    me "Bye."
+    "The usual farewell."
     # To be continued
     "{b}.:. Good End.{b}"
