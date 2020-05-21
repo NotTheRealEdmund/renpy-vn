@@ -390,7 +390,60 @@ label yeah:
 
 menu:
     "Such a person..."
-    "would just creep me out":
-        jump good
     "is someone I should strive to become":
         jump bad
+    "would just creep me out":
+        jump good
+
+label bad:
+    play music "audio/sad past.mp3" fadeout 1.0 fadein 1.0
+    "Such a person is someone I should strive to become."
+    "..."
+    "That's right."
+    "There's got to be a better way to living than this."
+    "It doesn't have to be this way, I don't want to live an unremarkable life anymore."
+    "It's not too late to change."
+    "I can't change my past, but I can change my future."
+    "I should not give up."
+    "I'm sure I can do it!"
+
+    scene bg rooftop
+    with fade
+
+    "Fast forward to 5 years later..."
+    me "The wind here sure is strong..."
+    "Here I am, on the rooftop of an abandoned building."
+    "Surrounding the rooftop, was a very high fence, about 2 meters in height."
+    "A wall you couldn't get past without climbing."
+    me "Well, it's probably there to prevent suicide..."
+    "It was simple enough to understand without having to ask anyone."
+    "There was no need to make it so high for mere safety reasons."
+    "Beyond that wall marking the divide between life and death, I stood at a standstill."
+    "And not on the safe side, but in the \"death zone\" beyond the fence."
+    me "How did it come to this?"
+    "5 years ago, after I had a change of heart, I did everything I could to break out of my unremarkable everyday life."
+    "I disregarded everything in the pursuit of success."
+    "I became someone I couldn't recognise anymore."
+    "I went out of my way to approach all the high-flyers, only to be avoided by them."
+    "Somehow or another, they probably saw right through me, the fact that I only had intentions to use them."
+    "Not only that, the one and only person I could call a friend left me."
+    "At the same time, I couldn't ignore the feeling that I made a grave mistake."
+    "Distracted by despair, I couldn't do well in studies or at work."
+    "In the end, I yearned for a successful life, but was not able to achieve it."
+    me "Finally, I understood my own powerlessness."
+    "Whether it was my heightened expectations I had for myself, or my misunderstandings of what I was actually capable of..."
+    "It doesn't matter anymore."
+    "This is the only way I can escape from my wretched self."
+    "If I had to single out one significant moment which lead to this day, it would be that moment at the bookstore."
+    "Tempted by the notion of achieving excellence, I had given up my unremarkable everyday life..."
+    "One which I was not ready to give up just yet."
+
+    scene bg black
+    with fade
+
+    "I closed my eyes."
+    me "Well then..."
+    "I took a step forward."
+    "..."
+    "{b}.:. Bad End.{b}"
+    return
