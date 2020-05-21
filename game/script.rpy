@@ -325,4 +325,42 @@ label yeah:
     with fade
     
     "..."
-    # To be continued
+    
+    play music "audio/normal.mp3" fadeout 1.0 fadein 1.0
+    
+    scene bg train
+    with fade
+    
+    "Today is a weekend."
+    "Usually on weekends and holidays, I don't have anything in particular to do, and would usually get on the train."
+    "There wouldn't be a destination in my mind though, I would simply take the train to wherever it took me, get off whenever I happened to feel like it, and explore the area."
+    "It's not really something unusual for me."
+    "Sounds like a waste of time, but as mentioned earlier, I happen to be quite good at it."
+    "At times like this, I wonder what are normal ways of spending time?"
+    "For people who aren't living an unremarkable life like me, for people who do things which makes them seem unique..."
+    "They'd probably do things related to their dreams, passions, or at least interests."
+    "And yet, knowing that, I don't have an urge to find one for myself, something to make me special."
+    "..."
+    "There are a lot of people who say that they don't want to become cogs in a machine."
+    "They want to strive for excellence, to reach a position nobody can touch them."
+    "Thing is, though, nobody's irreplaceable."
+    "There's always somebody else who can do what you do."
+    "In fact, there's no shame in being a cog, at least machines don't work without them."
+    "For the most part, people who figure that out are the ones who turn out decent and manage to remain that way."
+    "People who claim that they have achieved success, usually possess unconventional philosophies and only see the world through their own lens."
+    "As strange as that sounds, these people obsess over the coherence of their twisted interpretation of reality even more than people who aren't successful."
+    "A typical example would be the arrogance of software engineers."
+    "Thinking that they are the best in their field, they end up looking down on everyone else, not knowing that the world doesn't only comprise of technology."
+    "They end up being shunned by everyone else despite their expertise because they act like assholes all the time."
+    "The same goes for CEOs and dictators."
+    "That's not to say that all special people aren't decent, it's just that special people who aren't decent are usually able to cause greater damage to society."
+    "A stopped cog will not cause a machine to explode, but an inexperienced engineer would."
+    "..."
+    "What are decent people like, anyway?"
+    "Hard to say."
+    "In fact, we're always told that \"unique\" individuals are valued by society for being able to think outside the box."
+    "The way I see it, if you're too different from the rest of society, you're just going to be shunned and pushed outside the loop."
+    "The saying goes: There's a fine line between genius and insanity."
+    me "I can't be a cure, but at least I'm not poison, I'm just plain water..."
+    "I smile wryly to myself as I got off the train."
+    #To be continued
