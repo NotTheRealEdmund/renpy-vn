@@ -50,7 +50,7 @@ label start:
     "Guess that's just a pipe dream after all."
     "Before that turns into reality, the only choice humans have is to train their ability to tolerate things they dislike..."
     
-    stop music
+    stop music fadeout 1.0
     
     scene bg gray
     with fade
@@ -248,5 +248,81 @@ label yeah:
     friend "Bye."
     me "Bye."
     "The usual farewell."
+
+    play music "audio/relax.mp3" fadeout 1.0 fadein 1.0
+    
+    scene bg bus
+    with fade
+    
+    "On the bus back home, I started thinking about how my friend and I actually got along."
+    "I mean, the obvious answer is probably coincidence."
+    "We just happened to be in the same lectures and tutorials all the time."
+    "Seeing each other all the time, we ended up as friends whether we liked it or not."
+    "Truth to be told, I didn't expect to make friends with a single person at all since entering university."
+    "Especially since my friend seemed just like me on the outside."
+    "In other words, slightly anti-social, seemed difficult to approach."
+    "But he proved to be quite a friendly person after getting to know him better."
+    "The saying goes: Never judge a book by its cover."
+    "This is a saying I can resonate with."
+    "Just like with my friend, if I had just assumed his character back then, I might have to live through this boring school life all by myself."
+    "It's dangerous to jump to conclusions about someone you don't know."
+    "No matter your experiences in life, when you make a judgement without sufficient information, you're not going to be 100 percent right with your guesses."
+    "And more often than not, that assumption comes back to bite you in the end."
+    "On the frontlines, you might even end up dead."
+    "Therefore, I try my best not to label others prematurely."
+    "That being said, I guess some people actually do want to be labelled this way."
+    "After all, it certainly takes way less time and effort to change your appearance than to change your personality."
+    "And if people are distracted by your looks, then they probably wouldn't bother delving deeper into the skeletons in your closet."
+    "Take women with all their make-up for example."
+    "Isn't make-up basically something women use to hide stuff they don't want others to see?"
+    "Like bags under their eyes, or freckles, or rough skin, or dry lips."
+    "In my university, it's not uncommon to see women with make-up on their face while attending lectures and tutorials."
+    "Although just me saying that is probably going to get me in lots of trouble."
+    "..."
+    "A man knows when to keep his trap shut."
+    "That's something I've learnt far too late in life, but better late than never."
+    
+    scene bg bedroom
+    with fade
+
+    "As I was surfing the net, I've encountered the trolls of the internet once again."
+    "These trolls are pretty much unavoidable, you'll encounter them no matter what you use the internet for."
+    "They purposely say or do stupid things to get the attention of others by making them pissed off."
+    "To be honest, some people dislike them, but I really enjoy their presence."
+    "For one, to put in effort to reach a complete stranger like me...is quite admirable."
+    "In real life, I am not recognised for who I am. To the university, I'm simply a university student. Nothing more, nothing less."
+    "Nobody would go out of their way to make a \"light pole\" angry."
+    "Another aspect that I really enjoy about their trolling is the proof that they are showing me their \"other face\"."
+    "Those trolls would never show this side of them to their acquaintances in real life."
+    "After all, human beings are multifaceted creatures."
+    "In other words, there's usually more to people than meets the eye."
+    "It's not uncommon for someone who seems one-dimensional at a glance to reveal a dramatically different side after getting to know them for a while."
+    "In fact, many people don't stop at being \"two-faced\"."
+    "There are plenty of people out there with three or four."
+    "That explains why a scumbag would sometimes play the good guy, or vice versa."
+    "These multiple faces are part of what makes people interesting, but they also complicate our relations with others."
+    "No matter how slight it may be, no matter how well hidden it is, there will always be a side to a person's personality which will surprise you."
+    "Which is why a lot of people want to protect their relations with others and end up never being able to show their \"other face\"."
+    "The thing is though, that \"other face\" is also a part of them."
+    "To completely disregard it is impossible."
+    "So they need an outlet to express those sides of themselves."
+    "For example though the internet, as trolls."
+    "The anonymity which the internet provides can be very comforting to many and definitely not to be taken lightly."
+    "..."
+    "Here I am getting all empathetic over the trolls of the internet."
+    "Must be a side-effect of living an unremarkable everyday life."
+    "In fact, living such a unremarkable life demands certain skills of its own."
+    "Such as the ability to find enjoyment in thinking up vague, meaningless matters that nobody cares about."
+    "A skill like this is not completely useless though, since it's pretty much what politicians do all day anyway."
+    "The only difference being that I don't get paid to do this on my own."
+    "It also happens to be a skill that students require to write essays on how to solve a certain issue even though I'm pretty sure nobody actually cares about it."
+    "Over the years, many batches of students have already come up with thousands of ideas, none of which are actually implemented, otherwise there would be nothing much to discuss anymore."
+    me "Now I'm just engaging in self-loathing..."
+    me "..."
+    me "Time to sleep..."
+    
+    scene bg black
+    with fade
+    
+    "..."
     # To be continued
-    "{b}.:. Good End.{b}"
