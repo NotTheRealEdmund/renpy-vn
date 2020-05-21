@@ -363,4 +363,34 @@ label yeah:
     "The saying goes: There's a fine line between genius and insanity."
     me "I can't be a cure, but at least I'm not poison, I'm just plain water..."
     "I smile wryly to myself as I got off the train."
-    #To be continued
+
+    scene bg shop
+    with fade
+    
+    "I walked around the unfamiliar street and entered a bookstore."
+    "There were hardly any customers at all, and the bookstore was fairly old."
+    "Not to mention, the products there probably wouldn't be displayed in the newer bookstores which were constantly being stocked up with only the latest items."
+    "But that was exactly why I chose to enter this place."
+    "It's a strange sensation, almost illogical in fact."
+    "Sometimes, I end up being put off if the store is too classy."
+    "In my opinion, every once in a while, something a little deteriorated is nicer."
+    "In a way, it gives me a sense of relief."
+    "For example, it's a lot more comfortable to eat in a simple fast food place than a restaurant even though a restaurant probably has better service."
+    "When it comes to buying clothes, it's easier to step foot into a regular department store instead of a high-class store."
+    "It's almost as if over-establishment can sometimes hurt a business."
+    "Take the phone industry for example, phones have more and more unnecessary new features added to it over the years."
+    "However, people don't really use them at all, in fact, those features only serve to increase the cost of phones which then put people off from buying them."
+    "Sometimes I wonder if this applies to humans as well."
+    "In other words, deliberately restricting one's potential in order to remain approachable, so that people around you don't feel insecure."
+    "Then again, I guess those people are probably using that as an excuse for their mistakes."
+
+    stop music fadeout 1.0
+    "Strangely enough, I feel that this sensation is similar to how I would view people."
+    "For example, a person who is good at everything, aces every examination, has an active lifestyle, and has no character flaws at all..."
+
+menu:
+    "Such a person..."
+    "would just creep me out":
+        jump good
+    "is someone I should strive to become":
+        jump bad
